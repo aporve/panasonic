@@ -5,7 +5,7 @@ right: 0px !important;
 display: flex !important;
 background-color: #707070 !important;
 border-radius: 0px !important;
-`;document.getElementById("button#ymDivBar").style.cssText=`
+`;document.getElementById("#ymDivBar").style.cssText=`
 margin-bottom: 120px;
 right: 0px; !important;
 `;document.getElementById("ymFrameHolder").style.cssText=`
