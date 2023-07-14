@@ -1,4 +1,6 @@
-window.YellowMessengerPlugin.init({ host: 'https://r2.cloud.yellow.ai', view: 'compact', floatingIcon: false })
+// window.YellowMessengerPlugin.init({ host: 'https://r2.cloud.yellow.ai', view: 'compact', floatingIcon: false })
+
+console.log('Here in custom JS----')
 document.getElementById("ymDivCircle").style.cssText = `
 bottom: 120px;
 right: 0px !important;
@@ -7,7 +9,7 @@ background-color: #707070 !important;
 border-radius: 0px !important;
 `;
 
-document.getElementById("#ymDivBar").style.cssText = `
+document.getElementById("ymDivBar").style.cssText = `
 bottom: 168px !important;
 `;
 
